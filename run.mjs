@@ -1,6 +1,6 @@
 import { stripVTControlCharacters } from 'node:util';
-import { z } from '@cairul/plugin-kit';
-import { counts, option, selectors, stdout, list } from '@cairul/plugin-kit/runner';
+import { z } from '@cairul/pdk';
+import { counts, option, selectors, stdout, list } from '@cairul/pdk/runner';
 
 function summarize(output, lifecycle) {
   const result = counts();
